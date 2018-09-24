@@ -1,0 +1,4 @@
+#!/bin/sh
+
+BAMBOOPLUG_BIN_DIR=`dirname \`readlink -fn $0\``
+exec "/opt/plasticscm5/server/mono_setup" bambooplug mono "$BAMBOOPLUG_BIN_DIR/bambooplug.exe" "$@"
