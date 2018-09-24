@@ -52,7 +52,7 @@ When you create a new Bamboo Plug Configuration, you have to fill in the followi
 </p>
 
 ## Installation requirements - The Bamboo Lightweight Plugin
-**? Important! ?**
+**⚠️ Important! ⚠️**
 
 Please make sure that you've installed our lightweight Bamboo plugin before you create
 a new configuration for a server. You can find it in the **client** install
