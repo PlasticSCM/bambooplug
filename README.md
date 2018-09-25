@@ -39,7 +39,7 @@ They use the plug to launch builds in a Bamboo server and retrieve the build sta
 When a mergebot requires a CI plug to work, you can select a Bamboo Plug Configuration.
 
 <p align="center">
-  <img alt="CI plug select" src="https://raw.githubusercontent.com/mig42/bambooplug/master/doc/img/ci-plug-select.png" />
+  <img alt="CI plug select" src="https://raw.githubusercontent.com/PlasticSCM/bambooplug/master/doc/img/ci-plug-select.png" />
 </p>
 
 You can either select an existing configuration or create a new one.
@@ -48,7 +48,7 @@ When you create a new Bamboo Plug Configuration, you have to fill in the followi
 
 <p align="center">
   <img alt="Bambooplug configuration example"
-       src="https://raw.githubusercontent.com/mig42/bambooplug/master/doc/img/configuration-example.png" />
+       src="https://raw.githubusercontent.com/PlasticSCM/bambooplug/master/doc/img/configuration-example.png" />
 </p>
 
 ## Installation requirements - The Bamboo Lightweight Plugin
@@ -74,21 +74,21 @@ When you create a new Bamboo plan, leave the repository set as *None*.
 
 <p align="center">
   <img alt="Plan repository"
-       src="https://raw.githubusercontent.com/mig42/bambooplug/master/doc/img/plan-repository.png" />
+       src="https://raw.githubusercontent.com/PlasticSCM/bambooplug/master/doc/img/plan-repository.png" />
 </p>
 
 Then, add a **Mergebot Plastic SCM Checkout** step as the first one
 
 <p align="center">
   <img alt="Create the Mergebot Plastic SCM Checkout step"
-       src="https://raw.githubusercontent.com/mig42/bambooplug/master/doc/img/build-step-create.png" />
+       src="https://raw.githubusercontent.com/PlasticSCM/bambooplug/master/doc/img/build-step-create.png" />
 </p>
 
 Finally, configure the build step if you need some fine tuning.
 
 <p align="center">
   <img alt="Configure the build step"
-       src="https://raw.githubusercontent.com/mig42/bambooplug/master/doc/img/build-step-configure.png" />
+       src="https://raw.githubusercontent.com/PlasticSCM/bambooplug/master/doc/img/build-step-configure.png" />
 </p>
 
 When the **mergebot** requests a new build run or an existing build status
