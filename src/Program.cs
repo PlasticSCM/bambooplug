@@ -20,6 +20,10 @@ namespace BambooPlug
 
                 ConfigureLogging(plugArgs.BotName);
 
+                mLog.InfoFormat("BambooPlug [{0}] started. Version [{1}]",
+                    plugArgs.BotName,
+                    System.Reflection.Assembly.GetExecutingAssembly().GetName().Version);
+
                 string argsStr = args == null ? string.Empty : string.Join(" ", args);
                 mLog.DebugFormat("Args: [{0}]. Are valid args?: [{1}]", argsStr, bValidArgs);
 
